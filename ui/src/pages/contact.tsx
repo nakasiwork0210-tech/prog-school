@@ -88,7 +88,7 @@ export default function ContactPage() {
                     {/* 任意項目 */}
                     <div>
                       <label htmlFor="company" className="block text-sm font-medium mb-2 text-gray-700">会社名</label>
-                      <input type="text" id="company" name="company" onChange={handleChange} placeholder="例）株式会社NeuroLedger" className="w-full bg-gray-50 border-gray-300 text-gray-900 rounded-md px-4 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"/>
+                      <input type="text" id="company" name="company" onChange={handleChange} placeholder="例）株式会社CodeMentor" className="w-full bg-gray-50 border-gray-300 text-gray-900 rounded-md px-4 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"/>
                     </div>
                      <div>
                       <label htmlFor="phone" className="block text-sm font-medium mb-2 text-gray-700">電話番号</label>
